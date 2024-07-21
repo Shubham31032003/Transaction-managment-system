@@ -1,0 +1,76 @@
+body {
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #f0f0f0;
+}
+.container-fluid
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.btn {
+  border-radius: 20px;
+  
+  background-color: rgb(193, 35, 35);
+}
+
+.table {
+  font-size: 0.9rem;
+  
+}
+
+.table th {
+  font-weight: 600;
+}
+
+
+.dark-mode .card {
+  background-color: #444;
+  color: #f0f0f0;
+}
+
+.dark-mode .table {
+  color: #f0f0f0;
+}
+
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #555;
+  color: #f0f0f0;
+  border-color: #666;
+}
+
+.dark-mode .btn-outline-primary {
+  color: #f0f0f0;
+  border-color: #f0f0f0;
+}
+
+.dark-mode .btn-outline-primary:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode .chart-container {
+  background-color: #444;
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 20px;
+  }
+}
